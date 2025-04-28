@@ -4,6 +4,7 @@ import { SalesforceModule } from './salesforce/salesforce.module';
 import { ColdDetectorModule } from './cold-detector/cold-detector.module';
 import { NotifierModule } from './notifier/notifier.module';
 import { CronModule } from './cron/cron.module';
+import { AgentModule } from './agent/agent.module';
 import { AppController } from './app.controller';
 
 @Module({
@@ -15,6 +16,7 @@ import { AppController } from './app.controller';
     ColdDetectorModule,
     NotifierModule,
     CronModule,
+    AgentModule,
   ],
   controllers: [AppController],
 })
